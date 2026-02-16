@@ -17,7 +17,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: pytest -v
 
-   javascript-tests:
+  javascript-tests:
     needs: python-tests      
     runs-on: ubuntu-latest
     steps:
@@ -27,4 +27,3 @@ jobs:
           node-version: '20'
       - run: npm install
       - run: npm test
-
