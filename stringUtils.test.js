@@ -5,5 +5,5 @@ test('capitalize first letter', () => {
 });
 
 test('reverse string', () => {
-    expect(reverse('hello')).toBe('WRONG');
+    expect(reverse('hello')).toBe('olleh');
 });
